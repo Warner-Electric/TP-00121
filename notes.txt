@@ -1,0 +1,5 @@
+Description
+This is a collection of VIs I put together a few years ago to enable the control of a Kollmorgan AKD drive via LabVIEW over MODBUS TCP/IP. The various VIs included permit various tasks such as creating a new Motion Task, changing the Operational Mode of the drive and commanding a move. I no longer have access to an AKD to verify the functionality of the VIs, but they might still be of use for someone. N.B: they make use of the NI Modbus library, a copy of which is included.
+
+How to Use
+First, use AKD Initialise to open a connection to the drive. Then use the appropriate VIs to perform tasks as required. Once finished, use AKD Close to close the connection and exit.
